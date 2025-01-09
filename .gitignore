@@ -1,0 +1,76 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Configuration and sensitive files
+*.env
+*.json
+config.json
+*.pem
+*.key
+*.crt
+kaggle.json
+
+# Logs and debug files
+*.log
+logs/
+debug.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor-specific
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit
+.streamlit/
+
+# Data and results
+data/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.h5
+
+# Testing artifacts
+htmlcov/
+.tox/
+.nox/
+.cache/
+coverage.*
+*.cover
+*.py,cover
+*.pytest_cache/
+nosetests.xml
+coverage.xml
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.whl
+*.so
+*.dylib
+*.dll
+.env
+.aws/
